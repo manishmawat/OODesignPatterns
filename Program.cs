@@ -10,6 +10,13 @@ namespace DesignPatterns
         {
             Console.WriteLine("Hello World!");
 
+            TemplateMethodPattern templateMethod = new TemplateMethodPattern();
+            templateMethod.CallTemplateMethod();
+
+            StrategyPattern strategy = new StrategyPattern();
+            strategy.CallStrategy();
+
+
             StatePattern statePattern = new StatePattern();
             statePattern.CallState();
 
