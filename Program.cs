@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Behavioral;
+using DesignPatterns.Creational;
 using System;
 using System.Collections.Generic;
 
@@ -9,6 +10,14 @@ namespace DesignPatterns
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            //----------------------Creational--------------------------------
+
+            BuilderPattern bp = new BuilderPattern();
+            bp.CallBuilder();
+
+
+            //----------------------Behavioral--------------------------------------
 
             TemplateMethodPattern templateMethod = new TemplateMethodPattern();
             templateMethod.CallTemplateMethod();
