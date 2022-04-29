@@ -13,6 +13,9 @@ namespace DesignPatterns
 
             //----------------------Creational--------------------------------
 
+            PrototypePattern pp = new PrototypePattern();
+            pp.CallProtoTypePattern();
+
             BuilderPattern bp = new BuilderPattern();
             bp.CallBuilder();
 
